@@ -1,0 +1,108 @@
+body {
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+
+}
+
+.container {
+  max-width: 400px;
+  text-align: center;
+  padding : 50px
+}
+
+.login-form {
+  background-color: white;
+  padding: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 15px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid #dbdbdb; /* Instagram-like border color /
+  border-radius: 10px; / Rounded corners /
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); / Instagram-like box shadow /
+  background-color: white; / Background color /
+  padding: 30px 30px 30px 30px; / Adjust padding /
+  margin: 20px; / Add some margin for spacing */
+}
+.Instagram{
+  width: 250px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add some space below the image */
+  margin-top: 50px;
+  }
+
+  .fb-login{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+  .googleplay,
+  .microsoft {
+    display: inline-block; /* Display images inline */
+    vertical-align: middle; /* Align images vertically */
+    margin-right: 10px; /* Adjust the space between images */
+  }
+
+  .googleplay {
+    width: 150px; /* Adjust the width as needed */
+    height: 40; /* Maintain aspect ratio */
+    /* Your other styles for googleplay image */
+  }
+
+  .microsoft {
+    width: 150x; /* Adjust the width as needed */
+    height: 40px; /* Maintain aspect ratio */
+    }
